@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:wght@100;500;600;800&display=swap');
 
-* {
-    margin: 0;
-}
 
 body {
     background-color: whitesmoke;
@@ -11,7 +8,7 @@ body {
 }
 
 .header {
-    height: 400px;
+    height: 25rem;
     background-image: url("../Images/coffee-bgnd.jpeg");
     background-position: center;
     background-repeat: no-repeat;
@@ -23,43 +20,46 @@ body {
 
 }
 
+
+
 h1 {
-    font-size: 100px;
+    font-size: 7rem;
     font-family: 'Covered By Your Grace', cursive;
     color: rgba(3, 150, 100, 0.75);
-    text-align: center;
-    padding-top: 133px;
+  /*   text-align: center; */
+    padding-top: 8rem;
     /* margin-top: 132px; */
 }
 
-.main {
+/* .main {
     position: relative;
 }
-
-.left, .right {
+ */
+/* .left, .right {
     position: absolute;
     top: 0;
     width: 49%;
-}
+} */
 
-.left {
+/* .left {
     left: 0;
 }
-
-.right {
+ */
+/* .right {
     right: 0;
+} */
+
+
+.main > div{
+    margin: 6rem 0;
+    border-bottom: 1 solid #e4bb97;
+    padding-bottom: 4.5rem;
 }
 
 
-.left > div, .right > div {
-    margin: 100px 0;
-    border-bottom: 1px solid #e4bb97;
-    padding-bottom: 60px;
-}
-
-.main div > h2 {
+/* .main div >  */h2 {
    font-weight: 800;
-   font-size: 28px;
+   font-size: 1.7rem;
    background-color: #aa8eb5;
    text-align: center;
    text-transform: uppercase;
@@ -67,18 +67,28 @@ h1 {
 
 .main div > p {
     color: #444;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: justify;
-    text-indent: 32px;
+    text-indent: 2rem;
     line-height: 1.5;
-    padding: 0 10px;
+    padding: 0 0.6rem;
 }
+.btn-danger{
+    color: #214e34;
+    font-weight: 600;
+    padding-left: 0.6rem;
+    padding-bottom:0.6rem ;
+    text-decoration: none;
+    letter-spacing: 0.12rem;  
+    background-color: rgba(245, 245, 245, 0.765);
+    border: #aa8eb5;
 
-.main div > a {
+}
+/* .main div > a {
     color: #214e34;
     font-weight: 600;
     text-transform: uppercase;
-    padding-left: 10px;
+    padding-left: 0.6rem;
     text-decoration: none;
-    letter-spacing: 2px;
-}
+    letter-spacing: 0.12rem;
+} */
